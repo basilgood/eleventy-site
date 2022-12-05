@@ -1,0 +1,25 @@
+{
+  "name": "eleventy-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0-canary.18",
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "eleventy-plugin-postcss": "^1.0.4",
+    "eslint": "^8.29.0",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.0.1",
+    "postcss-preset-env": "^7.8.3",
+    "prettier": "^2.8.0"
+  }
+}

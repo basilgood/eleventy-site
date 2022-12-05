@@ -1,0 +1,9 @@
+src/assets
+npm-debug.log
+package.json
+package-lock.json
+README.md
+LICENSE
+.editorconfig
+.eslintrc.js
+.prettierrc

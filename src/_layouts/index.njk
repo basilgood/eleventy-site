@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ site.language }}">
+  <head>{% include "head.njk" %}</head>
+  <body>
+    {% block header %}
+      {% include "header.njk" %}
+    {% endblock header %}
+    {% block %}
+      {{ content | safe }}
+    {% endblock content %}
+    {% include "foot.njk" %}
+    {% include "footer.njk" %}
+  </body>
+</html>
